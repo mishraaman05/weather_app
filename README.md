@@ -46,7 +46,7 @@ OpenWeatherMap API
 
 Endpoint: https://api.openweathermap.org/data/2.5/weather
 
-You need to sign up at https://openweathermap.org/ to get a free API key.
+You need to sign up at (https://www.weatherapi.com/my/) to get a free API key.
 
 ⚙️ How to Use
 Clone the repository:
@@ -54,20 +54,16 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/weather-app.git
+git clone (https://github.com/mishraaman05/weather_app)
 cd weather-app
 Open script.js and add your API key:
 
-js
-Copy
-Edit
 const apiKey = "YOUR_API_KEY_HERE";
 Open index.html in a browser or run using Live Server.
 
 🧩 Folder Structure
 graphql
-Copy
-Edit
+
 weather-app/
 │
 ├── index.html          # Main HTML file
