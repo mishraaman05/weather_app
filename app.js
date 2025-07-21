@@ -14,7 +14,7 @@ function updateInfo(data){
 
 // Keep your code, add rain handler
 const prom = fetch(`
-http://api.weatherapi.com/v1/current.json?key=2f464d52a07b416391e103237252107&q=${place}&aqi=no`)
+https://api.weatherapi.com/v1/current.json?key=2f464d52a07b416391e103237252107&q=${place}&aqi=no`)
 
 prom
 .then(response => response.json())
